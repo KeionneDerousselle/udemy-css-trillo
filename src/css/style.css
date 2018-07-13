@@ -68,7 +68,24 @@ body {
 .header {
   height: 7rem;
   background-color: var(--white);
-  border-bottom: var(--grey-light-2); }
+  border-bottom: var(--grey-light-2);
+  display: flex;
+  justify-content: space-between; }
+  .header .logo {
+    height: 3.25rem; }
+  .header .search {
+    background-color: orangered; }
+    .header .search__icon {
+      height: 2rem;
+      width: 2rem; }
+  .header .user-nav {
+    background-color: greenyellow; }
+    .header .user-nav__icon {
+      height: 2.25rem;
+      width: 2.25rem; }
+    .header .user-nav__user-photo {
+      height: 3.75rem;
+      border-radius: 50%; }
 
 .hotel-overview {
   background-color: var(--white);
