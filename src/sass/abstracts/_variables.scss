@@ -17,6 +17,8 @@ Grey dark 3: #999
 */
 
 :root {
+  --white: #fff;
+  
   --primary: #eb2f64;
   --primary-light: #FF3366;
   --primary-dark: #BA265D;
@@ -31,4 +33,6 @@ Grey dark 3: #999
   --grey-dark-3: #999;
 
   --black: #000;
+
+  --shadow-dark: 0 2rem 6rem rgba(#000, .3);
 }
